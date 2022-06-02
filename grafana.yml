@@ -5,7 +5,7 @@ services:
     container_name: grafana
     restart: always
     ports:
-      - 3000:3003
+      - 3004:3000
     networks:
       - grafana_network
     volumes:
